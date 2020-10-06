@@ -4,8 +4,8 @@ import (
 	"fmt"
 	"sync"
 
-	"github.com/pion/ion/pkg/rtc/rtpengine/packetio"
-	"github.com/pion/rtp"
+	"github.com/carrotsong/ion/pkg/rtc/rtpengine/packetio"
+	"github.com/carrotsong/rtp"
 )
 
 // Limit the buffer size to 1MB

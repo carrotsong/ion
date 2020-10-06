@@ -12,8 +12,8 @@ import (
 	"time"
 
 	nprotoo "github.com/cloudwebrtc/nats-protoo"
-	"github.com/pion/ion/pkg/log"
-	"github.com/pion/stun"
+	"github.com/carrotsong/ion/pkg/log"
+	"github.com/carrotsong/stun"
 )
 
 var (

@@ -8,8 +8,8 @@ import (
 
 	"github.com/cloudwebrtc/go-protoo/peer"
 	"github.com/cloudwebrtc/go-protoo/server"
-	"github.com/pion/ion/pkg/log"
-	"github.com/pion/ion/pkg/proto"
+	"github.com/carrotsong/ion/pkg/log"
+	"github.com/carrotsong/ion/pkg/proto"
 )
 
 type AcceptFunc peer.AcceptFunc

@@ -9,8 +9,8 @@ import (
 	"sync/atomic"
 	"time"
 
-	"github.com/pion/transport/deadline"
-	"github.com/pion/transport/packetio"
+	"github.com/carrotsong/transport/deadline"
+	"github.com/carrotsong/transport/packetio"
 )
 
 const receiveMTU = 1500

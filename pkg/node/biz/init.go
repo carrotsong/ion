@@ -2,8 +2,8 @@ package biz
 
 import (
 	nprotoo "github.com/cloudwebrtc/nats-protoo"
-	"github.com/pion/ion/pkg/discovery"
-	"github.com/pion/ion/pkg/log"
+	"github.com/carrotsong/ion/pkg/discovery"
+	"github.com/carrotsong/ion/pkg/log"
 )
 
 var (

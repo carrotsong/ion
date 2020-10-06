@@ -2,15 +2,15 @@ FROM golang:1.14.4-stretch
 
 ENV GO111MODULE=on
 
-WORKDIR $GOPATH/src/github.com/pion/ion
+WORKDIR $GOPATH/src/github.com/carrotsong/ion
 
 COPY go.mod go.sum ./
-RUN cd $GOPATH/src/github.com/pion/ion && go mod download
+RUN cd $GOPATH/src/github.com/carrotsong/ion && go mod download
 
-COPY pkg/ $GOPATH/src/github.com/pion/ion/pkg
-COPY cmd/ $GOPATH/src/github.com/pion/ion/cmd
+COPY pkg/ $GOPATH/src/github.com/carrotsong/ion/pkg
+COPY cmd/ $GOPATH/src/github.com/carrotsong/ion/cmd
 
-WORKDIR $GOPATH/src/github.com/pion/ion/cmd/islb
+WORKDIR $GOPATH/src/github.com/carrotsong/ion/cmd/islb
 RUN CGO_ENABLED=0 GOOS=linux go build -a -installsuffix cgo -o /islb .
 
 FROM alpine:3.12.0

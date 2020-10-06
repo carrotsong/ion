@@ -1,4 +1,4 @@
-module github.com/pion/ion
+module github.com/carrotsong/ion
 
 go 1.13
 
@@ -14,13 +14,13 @@ require (
 	github.com/klauspost/reedsolomon v1.9.9 // indirect
 	github.com/mmcloughlin/avo v0.0.0-20200523190732-4439b6b2c061 // indirect
 	github.com/notedit/sdp v0.0.4
-	github.com/pion/ion-avp v0.0.0-20200628194531-b7b82b17ae83
-	github.com/pion/ion-sfu v0.0.0-20200628194606-99b1a0028619 // indirect
-	github.com/pion/rtcp v1.2.3
-	github.com/pion/rtp v1.5.5
-	github.com/pion/stun v0.3.5
-	github.com/pion/transport v0.10.0
-	github.com/pion/webrtc/v2 v2.2.17
+	github.com/carrotsong/ion-avp v0.0.0-20200628194531-b7b82b17ae83
+	github.com/carrotsong/ion-sfu v0.0.0-20200628194606-99b1a0028619 // indirect
+	github.com/carrotsong/rtcp v1.2.3
+	github.com/carrotsong/rtp v1.5.5
+	github.com/carrotsong/stun v0.3.5
+	github.com/carrotsong/transport v0.10.0
+	github.com/carrotsong/webrtc/v2 v2.2.17
 	github.com/rs/zerolog v1.19.0
 	github.com/shirou/gopsutil v2.20.6+incompatible
 	github.com/spf13/viper v1.7.0

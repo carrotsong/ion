@@ -7,8 +7,8 @@ import (
 	"strings"
 	"time"
 
-	"github.com/pion/ion/pkg/log"
-	"github.com/pion/ion/pkg/util"
+	"github.com/carrotsong/ion/pkg/log"
+	"github.com/carrotsong/ion/pkg/util"
 )
 
 //ServiceRegistry lib
